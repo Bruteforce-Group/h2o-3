@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM alpine:3
 RUN apk update && apk upgrade &&  apk add openjdk8 nodejs npm git
 
 ENV DIRECTORIES=".config .npm .cache .local"
