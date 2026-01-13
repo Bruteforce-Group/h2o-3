@@ -7,7 +7,7 @@ tabulate==0.8.10
 slam==0.6.0
 cython==0.29.34
 twine==1.10.0
-urllib3==1.26.5
+urllib3==2.6.3
 grip==4.4.0
 wheel<=0.42.0; python_version < '3.7'
 wheel==0.42.0; python_version >= '3.7'
@@ -54,3 +54,4 @@ typing_extensions==4.9.0; python_version >= '3.8'
 mypy==0.971; python_version < '3.7'
 mypy==1.4.1; python_version >= '3.7' and python_version < '3.8'
 mypy==1.8.0; python_version >= '3.8'
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
